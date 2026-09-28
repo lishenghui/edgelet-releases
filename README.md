@@ -11,7 +11,7 @@ Python 3.10–3.12 on Windows, macOS or Linux:
 ```bash
 python -m venv edgelet-env
 edgelet-env\Scripts\activate            # macOS / Linux: source edgelet-env/bin/activate
-pip install "edgelet[train]" -f https://lishenghui.github.io/edgelet-releases/
+pip install edgelet -f https://lishenghui.github.io/edgelet-releases/
 ```
 
 This installs the newest release. To update later, run the same `pip install` with `-U`.
