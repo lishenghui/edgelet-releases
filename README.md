@@ -6,13 +6,15 @@ Arduino Nano 33 BLE.
 
 ## Install
 
-Python 3.10–3.12 on Windows, macOS or Linux. Pick the newest release on the
-[Releases page](https://github.com/lishenghui/edgelet-releases/releases); its notes show the exact command:
+Python 3.10–3.12 on Windows, macOS or Linux:
 
 ```bash
 python -m venv edgelet-env
 edgelet-env\Scripts\activate            # macOS / Linux: source edgelet-env/bin/activate
-pip install "edgelet[train] @ https://github.com/lishenghui/edgelet-releases/releases/download/<version>/edgelet-<version>-py3-none-any.whl"
+pip install "edgelet[train]" -f https://lishenghui.github.io/edgelet-releases/
 ```
+
+This installs the newest release. To update later, run the same `pip install` with `-U`.
+All versions: [Releases](https://github.com/lishenghui/edgelet-releases/releases).
 
 Then follow the lab instructions on Studium.
